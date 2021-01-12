@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SunmiPayService</string>
+    <string name="not_allow_clear">このアプリにはキャッシュをクリアできません</string>
+</resources>

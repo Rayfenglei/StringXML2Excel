@@ -10,7 +10,7 @@ import java.io.File;
 public class ReadXlsToXml {
 
 	private static String ROOT_FILE = "\\Xls2String\\Strings.xlsx"; // excel 的名字
-	private static String FILE_NAME = "res";  //生成的文件夹的子
+	private static String FILE_NAME = "\\Xls2String\\res";  //生成的文件夹的子
 	public static String STRING_NAME = "test_strings.xml"; //要生成的 strings 的名字
 	public static String ARRAY_NAME = "test_arrays.xml"; //要生成的 array 的名字
 	private static String ROOT_PATH; // 当前路径
@@ -31,11 +31,4 @@ public class ReadXlsToXml {
 		ReadXlsManager.getInstance().readXls(bean.getBuilder());
 		System.out.println("在 "+ROOT_PATH+File.separator+FILE_NAME+" 生成文件啦!!");
 	}
-	
-	
-
-
-	
-
-	
 }
